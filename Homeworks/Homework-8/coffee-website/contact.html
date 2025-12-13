@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <title>Coffee - Contact Us</title>
+</head>
+
+<body>
+  <header id="comeBack">
+    <h1>Welcome to Coffee World</h1>
+    <p>Discover the aroma, culture, and passion behind every cup.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="contact-section ">
+      <h2>Contact Us</h2>
+
+      <form class="contact-form">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxx">
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+        </fieldset>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section class="recommendation-section">
+      <h2>Coffee Recommendations:</h2>
+
+      <form class="contact-form">
+
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxx">
+
+          <label for="strength">Coffee Strength:</label>
+          <select id="strength" name="strength" required>
+            <option value="">Select</option>
+            <option value="mild">Mild</option>
+            <option value="medium">Medium</option>
+            <option value="strong">Strong</option>
+          </select>
+
+          <label for="milk">Milk Preference:</label>
+          <select id="milk" name="milk" required>
+            <option value="">Select</option>
+            <option value="none">No Milk</option>
+            <option value="low">Low Milk</option>
+            <option value="high">High Milk</option>
+          </select>
+
+          <label for="flavor">Flavor:</label>
+          <select id="flavor" name="flavor" required>
+            <option value="">Select</option>
+            <option value="bitter">Bitter</option>
+            <option value="sweet">Sweet</option>
+            <option value="balanced">Balanced</option>
+          </select>
+
+          <label for="temperature">Preferred Temperature:</label>
+          <select id="temperature" name="temperature" required>
+            <option value="">Select</option>
+            <option value="hot">Hot</option>
+            <option value="cold">Cold / Iced</option>
+          </select>
+
+          <label for="notes">Any extra preferences or comments:</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Write here..."></textarea>
+
+        </fieldset>
+
+        <button type="submit">Get Recommendation</button>
+
+      </form>
+    </section>
+
+    <section class="section-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124217.809595119!2d-44.02983010419546!3d-19.768130295360326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa686b107f0f8eb%3A0xff4527c57ed28253!2zU2FudGEgTHV6aWEsINCc0LjQvdCw0Ygg0JbQtdGA0LDQuNGBLCDQkdGA0LDQt9C40Ls!5e1!3m2!1smk!2smk!4v1765451883027!5m2!1smk!2smk"
+        width="600" height="450"></iframe>
+    </section>
+
+    <section class="section-faq">
+      <h2>FAQ (Frequently Asked Questions)</h2>
+
+      <details>
+        <summary>What is coffee?</summary>
+        <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea
+          species.</p>
+      </details>
+
+      <details>
+        <summary>How much caffeine is in coffee?</summary>
+        <p>A standard cup of coffee contains about 95 mg of caffeine, but this can vary depending on the type and
+          preparation.</p>
+      </details>
+
+      <details>
+        <summary>Where was coffee first discovered?</summary>
+        <p>Coffee was first discovered in Ethiopia by a goat herder who noticed his goats became energetic after eating
+          coffee cherries.</p>
+      </details>
+
+      <h3>Follow Us:</h3>
+      <a href="https://www.facebook.com/"><img src="./images/facebook-icon.png" class="icon"></a>
+      <a href="https://www.instagram.com/"><img src="./images/ig-icon.png" class="icon"></a>
+    </section>
+
+
+    <div style="clear: both;"></div>
+
+  </main>
+
+  <div id="back-out-main">
+    <a href="#comeBack"><img src="./images/back-to-top.png" alt="backToTop"></a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Coffee World. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
